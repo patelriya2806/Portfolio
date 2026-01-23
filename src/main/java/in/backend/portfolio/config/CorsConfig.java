@@ -11,7 +11,7 @@ public class CorsConfig {
         return new WebMvcConfigurer() {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("*")
+                        .allowedOrigins("https://endearing-madeleine-6775c9.netlify.app/")
                         .allowedMethods("*");
             }
         };
